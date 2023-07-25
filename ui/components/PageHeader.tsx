@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { GithubIcon } from "./icons/GithubIcon";
 
 export const PageHeader = () => {
   return (
@@ -12,7 +11,7 @@ export const PageHeader = () => {
           width={34}
           height={40}
         />
-        Fuel App
+        FuelGuard
       </p>
       <ul className="flex gap-6 md:ml-auto">
         <li>
@@ -43,17 +42,6 @@ export const PageHeader = () => {
             className="link-hover"
           >
             Fuel Forum
-          </a>
-        </li>
-        <li className="flex gap-1">
-          <GithubIcon />
-          <a
-            href="https://github.com/edakturk14/fuel-dapp-template/"
-            target="_blank"
-            rel="noreferrer"
-            className="link-hover"
-          >
-            Fork me
           </a>
         </li>
       </ul>
